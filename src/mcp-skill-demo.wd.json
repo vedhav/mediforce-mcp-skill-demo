@@ -12,6 +12,11 @@
     "GITHUB_TOKEN": "{{GITHUB_TOKEN}}",
     "OPENROUTER_API_KEY": "{{OPENROUTER_API_KEY}}"
   },
+  "externalSkillsRepo": {
+    "url": "https://github.com/vedhav/mediforce-mcp-skill-demo",
+    "commit": "b0f2dd8bc47e53f84cecfac1baeae397aff77323",
+    "auth": "GITHUB_TOKEN"
+  },
   "steps": [
     {
       "id": "provide-word",
