@@ -1,0 +1,7 @@
+{
+  "name": "mcp-skill-demo",
+  "description": "Skills for the Word Explorer demo workflow. word-poem writes a short poem about a word, weaving in one of its anagrams.",
+  "author": {
+    "name": "vedha"
+  }
+}

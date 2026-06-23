@@ -1,0 +1,13 @@
+version: "1.0"
+standard: "agentskills.io/specification"
+total_skills: 1
+
+domains:
+  word-explorer:
+    description: Creative final stage of the Word Explorer demo workflow
+    skills:
+      - id: word-poem
+        path: word-poem/SKILL.md
+        complexity: basic
+        language: multi
+        description: Write a short 4-line poem about a word, weaving in one of its anagrams

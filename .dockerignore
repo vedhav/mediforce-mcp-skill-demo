@@ -1,0 +1,16 @@
+# The image needs only: mcp/ (the MCP package) + container/run.py + the wordlist
+# (installed via apt in the Dockerfile). Skills live in the repo and are read at
+# run time via skillsDir — they are NOT baked into the image. The wd.json isn't
+# needed in the image either.
+.git
+**/.venv
+**/__pycache__
+**/*.pyc
+**/*.egg-info
+.pytest_cache
+.ruff_cache
+.DS_Store
+
+plugins
+src
+README.md
