@@ -69,7 +69,7 @@
         "dockerfile": "Dockerfile",
         "repoAuth": "GITHUB_TOKEN",
         "timeoutMinutes": 10,
-        "prompt": "Read the JSON file at /workspace/state.json and take its `word` field. Call the `anagrams` tool from the `wordtools` MCP server with that word. Write a JSON file to /workspace/anagrams.json with the shape {\"word\": <the word>, \"anagrams\": <the list the tool returned>}. Then write /output/result.json as {\"status\": \"success\", \"word\": <the word>, \"anagram_count\": <number of anagrams>}.",
+        "prompt": "Read the JSON file at /workspace/state.json and take its `word` field. Call the `anagrams` tool from the `wordtools` MCP server with that word. Write the JSON {\"word\": <the word>, \"anagrams\": <the list the tool returned>} to BOTH /workspace/anagrams.json (so the next step can read it) and /output/anagrams.json (a downloadable Output File). Then write /output/result.json as {\"status\": \"success\", \"word\": <the word>, \"anagram_count\": <number of anagrams>}.",
         "mcpServers": [
           {
             "name": "wordtools",

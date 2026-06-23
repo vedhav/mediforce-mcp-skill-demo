@@ -20,7 +20,9 @@ Produce a short, fun 4-line poem about a word, using one of its anagrams as a tw
 2. Read the `anagrams` list from `/workspace/anagrams.json`.
 3. Write a 4-line poem about `word`. If the anagrams list is non-empty, weave in at least
    one anagram (a different word made from the same letters).
-4. Save the poem to `/workspace/poem.md` (markdown, the poem only).
+4. Save the poem to `/output/poem.md` (markdown, the poem only). Files written to
+   `/output` — other than control files like `result.json` — become downloadable
+   Output Files on this step, so this is the deliverable the user downloads.
 5. Also write `/output/result.json` as
    `{ "status": "success", "word": <word>, "poem": <the poem text> }`.
 
