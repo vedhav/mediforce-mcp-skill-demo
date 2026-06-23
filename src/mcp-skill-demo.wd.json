@@ -14,7 +14,7 @@
   },
   "externalSkillsRepo": {
     "url": "https://github.com/vedhav/mediforce-mcp-skill-demo",
-    "commit": "b0f2dd8bc47e53f84cecfac1baeae397aff77323",
+    "commit": "55c320ab285b3e88350690adcfb9ba9453d25640",
     "auth": "GITHUB_TOKEN"
   },
   "steps": [
